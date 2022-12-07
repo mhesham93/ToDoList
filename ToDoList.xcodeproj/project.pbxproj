@@ -12,6 +12,8 @@
 		44126EFC293EE5A500B1CCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44126EFB293EE5A500B1CCEA /* Assets.xcassets */; };
 		44126EFF293EE5A500B1CCEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44126EFE293EE5A500B1CCEA /* Preview Assets.xcassets */; };
 		44126F06293EE76300B1CCEA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44126F05293EE76300B1CCEA /* DetailView.swift */; };
+		445D2EF0293FD0B8001D45A8 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D2EEF293FD0B8001D45A8 /* ToDo.swift */; };
+		445D2EF2293FD5C6001D45A8 /* ToDoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D2EF1293FD5C6001D45A8 /* ToDoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		44126EFB293EE5A500B1CCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44126EFE293EE5A500B1CCEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44126F05293EE76300B1CCEA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		445D2EEF293FD0B8001D45A8 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		445D2EF1293FD5C6001D45A8 /* ToDoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				44126EF7293EE5A200B1CCEA /* ToDoListApp.swift */,
+				445D2EEF293FD0B8001D45A8 /* ToDo.swift */,
+				445D2EF1293FD5C6001D45A8 /* ToDoViewModel.swift */,
 				44126EF9293EE5A200B1CCEA /* ToDoListView.swift */,
 				44126F05293EE76300B1CCEA /* DetailView.swift */,
 				44126EFB293EE5A500B1CCEA /* Assets.xcassets */,
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445D2EF2293FD5C6001D45A8 /* ToDoViewModel.swift in Sources */,
 				44126EFA293EE5A200B1CCEA /* ToDoListView.swift in Sources */,
 				44126F06293EE76300B1CCEA /* DetailView.swift in Sources */,
 				44126EF8293EE5A200B1CCEA /* ToDoListApp.swift in Sources */,
+				445D2EF0293FD0B8001D45A8 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
